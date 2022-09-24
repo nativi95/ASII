@@ -6,7 +6,8 @@
 -- Generation Time: May 26, 2021 at 06:18 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.3.28
-
+CREATE Database renta;
+USE renta;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
@@ -163,6 +164,8 @@ CREATE TABLE `usuarios` (
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`, `fechaCaptura`) VALUES
 (1, 'Osi', 'bmds', 'eni', '7110eda4d09e062aa5e4a390b0a572ac0d2c0220', '2021-05-26');
 
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`, `fechaCaptura`) VALUES
+(1, 'Juan', 'Ruiz', 'correo@correo.com', 'dc76e9f0c0006e8f919e0c515c66dbba3982f785', '2021-05-26');
 --
 -- Indexes for dumped tables
 --
