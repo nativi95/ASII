@@ -166,6 +166,12 @@ INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`,
 
 INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`, `fechaCaptura`) VALUES
 (1, 'Juan', 'Ruiz', 'correo@correo.com', 'dc76e9f0c0006e8f919e0c515c66dbba3982f785', '2021-05-26');
+
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`, `fechaCaptura`) VALUES
+(3, 'Juan', 'Ruiz', 'correo2@correo.com', 'dc76e9f0c0006e8f919e0c515c66dbba3982f785', '2021-05-26');
+
+INSERT INTO `usuarios` (`id_usuario`, `nombre`, `apellido`, `email`, `password`, `fechaCaptura`) VALUES
+(4, 'Juan', 'Ruiz', 'correo2', 'dc76e9f0c0006e8f919e0c515c66dbba3982f785', '2021-05-26');
 --
 -- Indexes for dumped tables
 --

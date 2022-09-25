@@ -38,7 +38,7 @@
 						<hr>
 						<form id="frmLogin">
 							<label class="Lop">Usuario</label>
-							<input type="text" class="form-control input-sm" name="usuario" id="usuario">
+							<input type="email" class="form-control input-sm" name="usuario" id="usuario" require>
 							<br>
 							<label class="Lop">Contraseña</label>
 							<input type="password" name="password" id="password" class="form-control input-sm">
