@@ -35,10 +35,10 @@
             
           </li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil"></span> Administración de Equipos <span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil"></span> Administración de articulos <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="categorias.php">Categorias</a></li>
-              <li><a href="articulos.php">Maquinaria</a></li>
+              <li><a href="categorias.php">Categorías</a></li>
+              <li><a href="articulos.php">Articulos</a></li>
             </ul>
           </li>
 

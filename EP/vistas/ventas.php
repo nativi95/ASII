@@ -72,27 +72,6 @@ position: fixed;
 
 </body>
 </html>
-	
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('#ventaProductosBtn').click(function(){
-				esconderSeccionVenta();
-				$('#ventaProductos').load('ventas/ventasDeProductos.php');
-				$('#ventaProductos').show();
-			});
-			$('#ventasHechasBtn').click(function(){
-				esconderSeccionVenta();
-				$('#ventasHechas').load('ventas/ventasyReportes.php');
-				$('#ventasHechas').show();
-			});
-		});
-
-		function esconderSeccionVenta(){
-			$('#ventaProductos').hide();
-			$('#ventasHechas').hide();
-		}
-
-	</script>
 
 <?php 
 	}else{
